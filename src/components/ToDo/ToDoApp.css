@@ -1,0 +1,49 @@
+.to-do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    grid-column-gap: 20px;
+    padding: 0px;
+    /* border: 1px solid rgb(230, 230, 230); */
+    border: 1px solid rgb(13, 4, 131);
+   
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+  }
+
+input {
+    font-size: 14px;
+    padding: 8px 10px 9px 200px;
+  }  
+
+button {
+    font-size: 16px;
+    color: white;
+    padding: 8px 10px 9px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+}  
+/* input.right{
+    float: inline-end;
+} */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.btn:hover {
+    background-color: RoyalBlue;
+  }
